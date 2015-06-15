@@ -1,0 +1,31 @@
+body { 
+    background-color: rgb(0,255,255);
+  margin: 0;
+}
+h1 {
+  color: orange;
+  text-align: center;
+  font-size:125px; 
+}
+
+#menu {
+  width: 100%;
+  background-color: rgb(0,130,120);
+  position: absolute;
+  bottom: 0px;
+}
+
+#menu li {
+  /*
+    display: 
+      (can be one of: inline, block, inline-block)
+      - inline makes it act like text in a paragraph --
+          it doesn't have padding or margin, really, because
+          it flows in a line with other text.
+      - inline-block means it's like a box, but each one isn't
+         on a new line
+      - block means that it's a box, and it's on its own line.
+  */
+  display: inline-block;
+  padding: 32px;
+}
